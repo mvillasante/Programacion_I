@@ -92,3 +92,11 @@ Librerías opcionales para ciertos ejemplos:
 Desde el REPL puedes consultarla usando ? antes de cada comando.
 
 La documentación de Juno la puedes encontrar en  http://docs.junolab.org/latest/
+
+## Lecturas recomendadas
+
+Se recomienda leer a cabalidad los siguientes textos:
+
+- [Noteworthy Differences from Other Languages](http://docs.julialang.org/en/release-0.5/manual/noteworthy-differences/)
+- [Performance Tips](http://docs.julialang.org/en/release-0.5/manual/performance-tips/)
+- [MATLAB, Python, Julia Syntax Comparison](http://cheatsheets.quantecon.org/)
