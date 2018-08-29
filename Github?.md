@@ -8,3 +8,6 @@ Aqui puedes ver dos buenas explicaciones a su estructura y filosofía:
 - [HTG- explica que es GitHub](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/)
 #
 Aquí el manual [introductorio oficial](https://services.github.com/on-demand/intro-to-github/) y las [guías rápidas](https://guides.github.com/)
+
+#
+###IMPORTANTE: si después de haber visto y revisar las referencias piensas que podría ser útil que este u otro documento de ayuda podrian ser mejores favor de nutrirlo con sus ideas en la rama de edición.
