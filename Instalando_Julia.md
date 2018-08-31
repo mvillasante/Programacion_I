@@ -87,11 +87,13 @@ Librerías opcionales para ciertos ejemplos:
  
  # Documentación 
  
- La documentación de Julia la puedes encontrar en http://docs.julialang.org/en/latest/manual/
+ La documentación de **Julia** la puedes encontrar en http://docs.julialang.org/en/latest/manual/
 
 Desde el REPL puedes consultarla usando ? antes de cada comando.
 
-La documentación de Juno la puedes encontrar en  http://docs.junolab.org/latest/
+La documentación de **Juno** la puedes encontrar en  http://docs.junolab.org/latest/
+
+En https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Notebook%20Basics.html podrás encontrar todo lo que necesitas saber sobre **Jupyter Notebook**
 
 ## Lecturas recomendadas
 
