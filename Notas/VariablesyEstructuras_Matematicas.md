@@ -61,3 +61,11 @@ ERROR: syntax: extra token "@" after end of expression
 julia> struct = "Advanced Theoretical Zymurgy"
 ERROR: syntax: unexpected "="
 ```
+## Opcional: convenciones de Julia
+Hasta aquí las indicaciones eran obligatorias. Lo que sigue es opcional; son las convenciones que se consideran "de buena educación" en Julia pero no vas a perder puntos por no seguirlas.
+
+En el manual de Julia puedes leer que se acostumbra:
+
+Que los nombres de variables sean en minúscula, y que se haga la separación de palabras con un guión bajo. Se recomienda no abusar de los guiones.
+Que los nombres de las funciones sean en minúsculas. Idealmente se tiene que evitar que tengan muchas palabras distintas.
+Que las funciones que modifican a sus argumentos lleven un signo de exclamación ! al final del nombre (ejemplo: push!).
