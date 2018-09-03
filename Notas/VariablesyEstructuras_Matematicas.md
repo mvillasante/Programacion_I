@@ -2,14 +2,15 @@
 
 En Julia, una variable es un nombre asociado (o ligado a un valor). 
 ```julia
-# Assign the value 10 to the variable x
+# Asigna el valor 10 a la variable x
 julia> x = 10
 10
 
-# You can assign values of other types, like strings of text
+# Existen otros tipos de valores que se pueden asignar, como las cadenas (strings)
 julia> x = "Hello World!"
 "Hello World!"
 
+#Cualquier caracter UNICODE es válido
 julia> UniversalDeclarationOfHumanRightsStart = "人人生而自由，在尊严和权利上一律平等。"
 "人人生而自由，在尊严和权利上一律平等。"
 
@@ -61,6 +62,8 @@ ERROR: syntax: extra token "@" after end of expression
 julia> struct = "Advanced Theoretical Zymurgy"
 ERROR: syntax: unexpected "="
 ```
+
+##Opcional
 Las convenciones que se consideran "de buena educación" en Julia pero no vas a perder puntos por no seguirlas.
 
 En el manual de Julia puedes leer que se acostumbra:
