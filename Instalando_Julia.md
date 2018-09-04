@@ -51,7 +51,7 @@ Básicamente es el editor de texto **Atom** diseñado especialmente para escribi
 En [Juliabox](https://juliabox.com) puedes hacer registrarte y comenzar a usar Julia sin instalar desde el entorno de Jupyter notebooks (Nota: Es recomendable usar Pkg.update() en la primera sesión para actualizar la base de paquetes). Para agregar las notas y los paquetes disponibles de este curso haz click en la pestaña "Git" y en la sección "Git Repositories" copia __https://github.com/mvillasante/Programacion_I.git__ y haz click en el +. Recarga la página y podrás ver la carpeta Programacion_I.
 
 ##
-Primero necesitaras instalar IPython. [Actualmente las partes de Ipython que no se relacionan directamente con Python se están separando en un paquete llamdo Jupyter.] La manera mas sencilla de hacer esto es instalar la distribución gratuita de [Anaconda](http://continuum.io/downloads), la cual incluye IPython, la librería de graficación `matplotlib`, y varios paquetes útiles de Python.
+Si no has intalado IPython y sus dependencias deberás hacerlo. (Actualmente las partes de Ipython que no se relacionan directamente con Python se están separando en un paquete llamdo Jupyter.) La manera mas sencilla de hacer esto es instalar la distribución gratuita de [Anaconda](https://www.anaconda.com/download/), la cual incluye IPython, la librería de graficación `matplotlib`, y varios paquetes útiles de Python.
 ##
 
 Para instalar Jupyter notebooks (IJulia), escribe los siguientes comandos en la REPL:
