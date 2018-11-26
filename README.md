@@ -5,6 +5,12 @@ Aquí podrás encontrar material relacionado al curso de Programación I de la F
 
 Profesor: Mario Villasante Barahona ('mario.villasante@ciencias.unam.mx')
 
+### Evaluación
+
+* Tareas          50%
+* Examen          30%
+* Proyecto Final  20% 
+
 
 
 
