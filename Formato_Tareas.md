@@ -1,6 +1,6 @@
 ## Formato de Tareas
 
-Las tareas se entregan vía email en mi correo, `mario.villasate@ciencias.unam.mx`.
+Las tareas se entregan vía email en mi correo, `mario.villasante@ciencias.unam.mx`.
 
 Las tareas se deberán entregar en archivos de Jupyter (\*.ipynb) nombrados propiamente. Favor de enviar un sólo notebook llamado 
 `tarea$N_$Nombre_$Apellido.ipynb`; esto hará más fácil organizar mis archivos. Ejemplo: `tarea10_Mario_Villasante.ipynb`.
