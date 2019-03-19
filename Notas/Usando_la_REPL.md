@@ -38,7 +38,7 @@ LinearAlgebra.logdet
 ## Modo Shell
 Si necesitas ejecutar comandos de shell (la terminal del S.O.) puedes usar un punto y coma:
 ```julia
-julia > ?
+julia > ;
 ```
 y cambiarás automáticamente al modo shell desde el cual podrás ejecutar cualquier comando propio de la terminal de tu S.O.:
 ```shell
