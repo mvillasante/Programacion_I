@@ -61,7 +61,7 @@ Pkg.add("IJulia") # Instala el paquete
 Pkg.clone("https://github.com/mvillasante/Programacion_I.git") # Clonas el repositorio para este curso
 ### Cada que abras una REPL tendrás que escribir
 using IJulia
-notebook(detached=true))
+notebook(detached=true)
 ```
 ## Instalando librerías
 
