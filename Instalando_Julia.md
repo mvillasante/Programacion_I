@@ -12,7 +12,7 @@ La instalación desde el código fuente ( la cual requiere compilar Julia en tu 
 En la terminal ejecuta lo siguiente:
 
 ```
-$ git clone git@github.com:JuliaLang/julia.git
+$ git clone git://github.com:JuliaLang/julia.git
 $ cd julia
 $ make -j 4
 ```
