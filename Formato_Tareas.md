@@ -41,7 +41,7 @@ Dentro de las funciones es común que utilice variables que sólo viven por un m
 
 Ejemplo:
 ```julia
-mi_funcion_copia(arreglo, len_arreglo)
+function mi_funcion_copia(arreglo, len_arreglo)
     # Una función que hace una copia del arreglo que le doy como argumento
 
     # Creamos un arreglo vacío que contendrá la salida
