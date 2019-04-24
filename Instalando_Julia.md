@@ -67,24 +67,38 @@ notebook(detached=true)
 
 Durante el curso vamos a usar distintas librerías, se recomienda instalar:
 
-- Plots.jl para graficar. Este necesitará algunos backends:
+* Plots.jl para graficar. Este necesitará algunos backends:
   - PyPlot.jl
   - GR.jl
   - Plotly.jl
-- MultivariateStats.jl
-- GLM.jl
+* MultivariateStats.jl
+* GLM.jl
 
 Librerías opcionales para ciertos ejemplos:
 
-- DifferentialEquations.jl
-- LightGraphs.jl
-- ForwardDiff.jl
-- NLsolve.jl
-- JuMP
-- BenchmarkTools.jl
-- ProfileView.jl
-- PkgDev.jl
- 
+* DifferentialEquations.jl
+* LightGraphs.jl
+* ForwardDiff.jl
+* NLsolve.jl
+* JuMP
+* BenchmarkTools.jl
+* ProfileView.jl
+* PkgDev.jl
+
+## ¿Cómo instalo librerías?
+
+Para hacer esto solamente debemos usar la librería `Pkg`. Vamos a ejemplificar el procedimiento instalando la librería `Plots.jl`.
+
+Ya sea desde una notebook de `Jupyter` o desde la `REPL` de Julia ejecutemos los siguientes comandos:
+```julia
+> using Pkg
+> Pkg.build("Plots")  ### No usamos Pkg.add() porque aquí veremos explícitamente si sale un error
+```
+Si todo sale bien (no vemos las palabras "error" o "warning" en colores rojos), habremos instalado correctamente la librería y ahora podrás usarla. Para usarla solamente debemos cargar la librería **cada vez que iniciemos** una sesión de Julia. Esto se hace, como siempre, con el comando `using`:
+
+```julia
+
+```
  # Documentación 
  
  La documentación de **Julia** la puedes encontrar en http://docs.julialang.org/en/latest/manual/
