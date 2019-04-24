@@ -97,8 +97,20 @@ Ya sea desde una notebook de `Jupyter` o desde la `REPL` de Julia ejecutemos los
 Si todo sale bien (no vemos las palabras "error" o "warning" en colores rojos), habremos instalado correctamente la librería y ahora podrás usarla. Para usarla solamente debemos cargar la librería **cada vez que iniciemos** una sesión de Julia. Esto se hace, como siempre, con el comando `using`:
 
 ```julia
-
+using Plots
+gr()        #Este backends generalmente se instala con la librería 
 ```
+
+Aparte de `gr()` podemos inicializar otros backends(`pyplot()`,`plotly()`) si se instalan previamente. 
+
+### Problemas de instalación en Windows
+
+Si tuvimos algún mensaje de error al ejecutar `Pkg.build("Plots")` la instalación no se concluyó con éxito. Los problemas que identifiqué en las computadoras del laboratorio se deben a que no tenemos instalada la aplicación **Windows PowerShell 3** o alguna versión de este. 
+
+Para instalarlo solamente descarga la aplicación [**Windows Framework**](https://www.microsoft.com/en-us/download/details.aspx?id=34595). Una vez finalizada la instalación con éxito repite los pasos de instalación descritos previamente.
+
+Intente hacer una gráfica sencilla para comprobar que todo está funcionando como se debe.
+
  # Documentación 
  
  La documentación de **Julia** la puedes encontrar en http://docs.julialang.org/en/latest/manual/
